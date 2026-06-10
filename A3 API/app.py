@@ -1,16 +1,19 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 import mysql.connector
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'chave_secreta'
+app.secret_key = os.getenv("SECRET_KEY")
 
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'diego12@',
-    'database': 'biblioteca'
+    'host': os.getenv("DB_HOST"),
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASSWORD"),
+    'database': os.getenv("DB_NAME")
 }
-
 
 @app.route('/')
 def index():
