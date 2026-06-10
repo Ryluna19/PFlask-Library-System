@@ -34,7 +34,7 @@ This project was originally developed as an academic assignment and later improv
 
 <img width="985" height="864" alt="library" src="https://github.com/user-attachments/assets/4c75d8cc-1218-47d7-ace2-4015fcb1ded4" />
 
-### User Settings Page
+### User Setting Page
 
 <img width="962" height="828" alt="setting" src="https://github.com/user-attachments/assets/bd7517c1-c49b-47b0-902a-efd336d85c64" />
 
@@ -63,7 +63,7 @@ This project was originally developed as an academic assignment and later improv
 * Library catalog page
 * Book cards with title, author and rating
 * Supporters/user list
-* Navigation between library and account settings
+* Navigation between library and account setting
 
 ### Security Improvements
 
@@ -138,7 +138,7 @@ PFlask-Library-System/
 │   ├── login.png
 │   ├── register.png
 │   ├── library.png
-│   └── settings.png
+│   └── setting.png
 │
 └── README.md
 ```
